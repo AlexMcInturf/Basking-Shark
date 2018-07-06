@@ -3,7 +3,20 @@ title: "CATS_basker_analysis"
 output: html_document
 ---
 
+Here I'm going to bring in the initial raw dataset from CATSCam, shark 2
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+setwd("~/Desktop/Basking sharks/bs.git")
+data <- read.csv("Shark 2_CATS.csv")
+head(data)
+table(data$Date) #so, all have the same date (July 26, 2013)
+data$Time[1] #first time: 19:16:45
+data$Time[nrow(data)] #end time: 22:10:47
 ```
+So, now we need to think about what we are interested in. We want to know time, feeding, pressure, temperature, light intensity, ODBA
 
+```{r}
+dat2 <- data[,c(2,4, 5, 12, 19, 20, 21, 22)]
+head(dat2)
+colnames(dat2) <- c("Time", "Feeding", "Pressure", "Temp1", "Temp2", "Light", "Temp.ext", "ODBA") #still don't know what some of these things are - need to ask Heather
+```
