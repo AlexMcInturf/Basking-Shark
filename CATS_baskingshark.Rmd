@@ -7,7 +7,8 @@ Here I'm going to bring in the initial raw dataset from CATSCam, shark 2
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 setwd("~/Desktop/Basking sharks/bs.git")
-data <- read.csv("Shark 2_CATS.csv")
+ID <- 2 #this allows us to change the ID to look at other data if we want to 
+data <- read.csv(paste0("Shark ", ID, "_CATS.csv"))
 head(data)
 table(data$Date) #so, all have the same date (July 26, 2013)
 data$Time[1] #first time: 19:16:45
@@ -18,5 +19,29 @@ So, now we need to think about what we are interested in. We want to know time, 
 ```{r}
 dat2 <- data[,c(2,4, 5, 12, 19, 20, 21, 22)]
 head(dat2)
+#convert time to POSIXct
+dat2[,1] <- as.POSIXct(dat2$Time, format="%H:%M:%OS", tz="UTC")
+head(dat2)
 colnames(dat2) <- c("Time", "Feeding", "Pressure", "Temp1", "Temp2", "Light", "Temp.ext", "ODBA") #still don't know what some of these things are - need to ask Heather
 ```
+
+
+Let's look at frequency distribution of feeding events:
+```{r}
+feed.dat <- dat2[dat2$Feeding==1,]
+summary(feed.dat)
+# need to bin by duration of feeding event, which requires defining feeding events
+feed.dat$Time
+# should define feeding events by any difference in time > 00:10
+# make an empty column to identify splits
+feed.dat$split <- rep(NA, nrow(feed.dat))
+for (i in 1:nrow(feed.dat)) {
+  
+}
+
+```
+
+We then need to filter out the data from the surface, because the wobble affects the accelerometer 
+
+
+Then, we are just going to do basic GLMs, testing ODBA if it were applied for the entire period versus if it's just the times that they're selecting
