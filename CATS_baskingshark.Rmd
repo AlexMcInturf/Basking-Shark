@@ -32,12 +32,61 @@ feed.dat <- dat2[dat2$Feeding==1,]
 summary(feed.dat)
 # need to bin by duration of feeding event, which requires defining feeding events
 feed.dat$Time
+length(feed.dat$Time)
 # should define feeding events by any difference in time > 00:10
-# make an empty column to identify splits
-feed.dat$split <- rep(NA, nrow(feed.dat))
-for (i in 1:nrow(feed.dat)) {
-  
+interv <- feed.dat$Time[-1]-feed.dat$Time[-length(feed.dat$Time)]
+table(interv)
+splits <- which(interv > 10) #this gives us the locations of where the difference is greater than 10
+length(splits)
+head(feed.dat)
+
+#### practice with one segment of feeding behavior: 
+
+feed.dat1 <- (feed.dat[0:splits[1],])
+ft1 <- feed.dat1[nrow(feed.dat1),1] - feed.dat1[1,1] #returns a difftime object and time difference that gives you the duration of the feeding event
+ft1 <- as.numeric(feed.dat1[nrow(feed.dat1),1] - feed.dat1[1,1]) #make numeric
+
+### now try with two segments, and combine in a list
+feed.dat2 <- (feed.dat[splits[1]:splits[2],])
+ft2 <- as.numeric(feed.dat2[nrow(feed.dat2),1] - feed.dat2[1,1]) 
+
+#create a vector with the ft values
+vec <- c(ft1, ft2)
+
+
+
+
+
+
+######################################################
+
+feed.dat3 <- (feed.dat[splits[2]:splits[3],])
+feed.dat4 <- (feed.dat[splits[3]:splits[4],])
+feed.dat5 <- (feed.dat[splits[4]:splits[5],])
+feed.dat6 <- (feed.dat[splits[5]:splits[6],])
+feed.dat7 <- (feed.dat[splits[6]:splits[7],])
+feed.dat8 <- (feed.dat[splits[7]:splits[8],])
+feed.dat9 <- (feed.dat[splits[8]:splits[9],])
+
+
+trashlist<- list(feed.dat1, feed.dat2)
+## now just trying to set this up in a list:
+for (i in 1:1){
+  trashlist[i] <- assign(paste("feed.dat",i), data=feed.dat) 
 }
+
+
+temp <- NULL
+listofdfs <- list()
+
+for(i in 1:59){
+  listofdfs[[i]] <- data.frame(feed.dat
+                               
+                               [splits[i]:splits[i+1],])
+# save your dataframes into the list
+}
+  
+
 
 ```
 
