@@ -420,7 +420,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2004,4,54.32835444,-9.952868707,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2009,4,50.233394,-4.861364,7,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1993,4,50.08333333,-5.528888889,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2011,4,55.50479,-5.33478,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,4,55.50479,-5.33478,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1999,4,50.61956024,-1.860020161,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2006,4,45.39366,-4.60683,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1997,4,50.16329956,-4.976774216,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
@@ -431,7 +431,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2003,4,49.969115,-5.186901,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2006,4,45.72733,-4.8395,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1996,4,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2007,4,57.15481,-6.21828,2 (Exact),,,Accepted,HBRG Vertebrates (not Badger) Dataset,United Kingdom,Scotland
+2007,4,57.15481,-6.21828,2,,,Accepted,HBRG Vertebrates (not Badger) Dataset,United Kingdom,Scotland
 2007,4,50.1886,-5.0436,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2004,4,54.33509427,-9.973676726,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2004,4,51.522222,-9.933333,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
@@ -555,7 +555,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2014,10,55.71328,-5.2313,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2005,10,56.54,-7.27,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1994,10,51.08333333,-10.41666667,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2012,10,55.63623,-5.12344,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,10,55.63623,-5.12344,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2011,10,57.462,-6.083,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2011,10,57.4065,-6.1197,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2016,10,55.64367,-5.13737,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -563,7 +563,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 1996,10,55.6008,-5.111,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1996,10,,,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1992,10,55.355276,-4.789637,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2012,10,55.69359,-5.33494,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,10,55.69359,-5.33494,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2015,10,55.82162,-5.25245,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2010,10,56.484,-6.983,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1989,10,57.430556,-6.565556,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -582,7 +582,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2006,10,56.91016,-7.53091,1,,Adult,Accepted,"Vertebrates (except birds, INNS and restricted records), Outer Hebrides",United Kingdom,Scotland
 2015,10,55.72265,-5.03354,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2011,10,53.266,-6.094,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2012,10,55.70299,-5.31982,3 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,10,55.70299,-5.31982,3,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1996,10,,,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2013,10,55.71164005,-5.294723511,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2010,10,56.484,-6.983,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -597,7 +597,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2013,10,57.458,-6.736,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2001,10,50.367773,-5.576505,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1989,10,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2012,10,55.6452,-5.12415,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,10,55.6452,-5.12415,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2010,10,55.554,-5.08,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2006,10,57.868333,-5.911667,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1989,10,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
@@ -617,10 +617,10 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2015,10,55.7696,-5.09766,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2008,10,50.03384,-5.67805,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2006,10,57.568333,-5.811667,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2015,10,55.61828,-5.12201,3 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,10,55.61828,-5.12201,3,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2012,10,55.730964,-5.300217,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2006,10,58.199,-5.3441,6,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2015,10,55.59096,-5.13571,2 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,10,55.59096,-5.13571,2,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1994,10,55.688931,-5.34256,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2006,10,54.177281,-4.732468,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 1998,10,50.10862732,-5.545522213,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
@@ -632,9 +632,9 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 1996,10,55.6008,-5.111,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1989,10,55.44236,-5.077688,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2015,10,55.759964,-5.003929,22,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2012,10,55.647,-5.39457,3 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,10,55.647,-5.39457,3,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2010,10,55.529,-4.769,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2016,10,55.43844,-5.1236,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2016,10,55.43844,-5.1236,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2016,10,56.71034,-2.44188,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2012,10,50.12636753,-5.70819445,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2016,10,50.8171,-0.17771,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
@@ -643,7 +643,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 1990,10,53.35506,-6.191654,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2011,10,55.64134,-4.83474,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2012,10,55.441,-5.143,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2012,10,55.68419,-5.35005,2 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,10,55.68419,-5.35005,2,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2013,10,57.721718,-3.274566,6,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,10,57.737257,-3.337834,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1989,10,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
@@ -651,7 +651,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2006,10,55.6731,-5.0888,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2012,10,55.64408,-5.48255,,,,Accepted,Verified Marine records from Indicia-based surveys,United Kingdom,Scotland
 2011,10,50.1634713,-5.673248027,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2013,10,55.58199,-5.135,3 - 4 (Estimate),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2013,10,55.58199,-5.135,3,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2008,10,50.03384,-5.67805,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1996,10,55.6008,-5.111,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2009,10,50.03467002,-5.677369215,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
@@ -705,7 +705,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2012,10,55.72,-5.248,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2002,10,50.273667,-7.292414,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2003,10,56.583671,-6.80037,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2013,10,55.6452,-5.12415,4 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2013,10,55.6452,-5.12415,4,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2008,10,50.03384,-5.67805,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2006,10,56.2179,-2.6948,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1994,10,55.434601,-5.099629,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -718,7 +718,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2015,10,55.31308,-4.84735,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2015,10,57.70129,-2.11674,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,10,57.729667,-3.349842,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2012,10,55.70299,-5.31982,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,10,55.70299,-5.31982,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2015,10,55.709319,-5.297127,8,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1994,10,58.216667,-5.683333,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2015,10,55.709694,-5.217015,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -880,7 +880,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2012,9,50.12632288,-5.709590661,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2008,9,50.03384,-5.67805,11,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2008,9,50.00026222,-5.683395833,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2015,9,55.72305,-5.24187,11 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,9,55.72305,-5.24187,11,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2008,9,50.03384,-5.67805,18,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2011,9,54.56738,-5.08411,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2002,9,56.466667,-6.466744,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -1022,7 +1022,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2008,9,50.01670889,-5.683419722,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2010,9,54.0881,-4.769683333,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 1993,9,55.596165,-5.445807,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2013,9,55.68747,-5.17606,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2013,9,55.68747,-5.17606,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2008,9,50.03384,-5.67805,7,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2002,9,56.650194,-6.233372,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2003,9,56.600199,-6.316708,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -1072,7 +1072,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2005,9,57.70764,-6.36537,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2005,9,56.32995,-7.063033,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
 2006,9,56.90574,-6.900833,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2015,9,55.69739,-5.19199,2 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,9,55.69739,-5.19199,2,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2016,9,54.39327,-3.4933,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1993,9,,,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2008,9,56.55006,-6.696324,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
@@ -1100,23 +1100,23 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2013,9,58.077,-5.458,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1996,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2013,9,57.724203,-3.30228,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2011,9,55.70748,-5.30348,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
-2012,9,55.72012,-5.26791,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.70748,-5.30348,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,9,55.72012,-5.26791,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1989,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1993,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2015,9,55.67478,-5.36515,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,9,55.67478,-5.36515,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2013,9,60.40998958,-0.910655873,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1990,9,56.635833,-6.764722,5,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2003,9,56.600185,-6.5,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2006,9,56.6165,-6.316816,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
 2002,9,56.65,-6.316719,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2003,9,56.555373,-6.638812,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2013,9,55.64479,-5.14002,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2013,9,55.64479,-5.14002,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2004,9,56.574583,-6.321217,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2012,9,50.03953592,-5.637224972,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2008,9,50.00017306,-5.666933333,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2006,9,56.77513,-7.613667,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
-2016,9,55.63582,-5.1393,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2016,9,55.63582,-5.1393,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1998,9,50.05096054,-5.577599525,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2006,9,50.0464,-5.7031,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2004,9,56.611783,-6.31975,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -1242,10 +1242,10 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2005,9,57.625063,-1.817239,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1995,9,55.852778,-5.375833,5,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2007,9,56.86228,-6.635717,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
-2011,9,55.68375,-5.36593,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.68375,-5.36593,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2005,9,56.31868,-7.151717,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2010,9,50.03467002,-5.677369215,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2014,9,55.58199,-5.135,2 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2014,9,55.58199,-5.135,2,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1991,9,51.41666667,-9.05,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2013,9,50.0526021,-5.53480036,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1990,9,55.583333,-5.133333,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -1263,7 +1263,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2008,9,50.03384,-5.67805,23,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1991,9,57.17,-6.853333,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2004,9,58.65833333,-3.116666667,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2012,9,55.71311,-5.2944,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,9,55.71311,-5.2944,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2013,9,50.120782,-5.705209,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2008,9,56.833529,-7.516686,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,9,57.059097,-6.726233,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
@@ -1274,7 +1274,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2002,9,56.583361,-6.444,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1998,9,56.601389,-6.284167,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2002,9,56.516667,-6.24,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2011,9,55.6452,-5.12415,2 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.6452,-5.12415,2,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1996,9,51.1675,-4.668888889,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2010,9,54.22833333,-4.696666667,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 2004,9,55.684986,-6.383449,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -1398,7 +1398,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2005,9,57.33516,-6.47071,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2010,9,54.43,-4.318333333,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 2008,9,50.01689389,-5.666908056,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2011,9,55.6452,-5.12415,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.6452,-5.12415,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1992,9,,,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1989,9,55.642776,-5.386316,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2004,9,56.583333,-6.333333,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -1419,7 +1419,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2009,9,50.03574438,-5.671863332,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1990,9,55.84,-5.303333,10,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2007,9,50.03384,-5.67805,72,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2013,9,55.6452,-5.12415,2 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2013,9,55.6452,-5.12415,2,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2005,9,56.57797,-6.6473,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2008,9,50.03344778,-5.700188889,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2013,9,57.33059855,-6.475496292,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -1630,11 +1630,11 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2005,9,55.424,-5.268,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,9,57.70075354,-6.3530159,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1989,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2008,9,56.97563,-6.19796,2 (Exact),,,Accepted,HBRG Vertebrates (not Badger) Dataset,United Kingdom,Scotland
+2008,9,56.97563,-6.19796,2,,,Accepted,HBRG Vertebrates (not Badger) Dataset,United Kingdom,Scotland
 2013,9,56.9969,-6.760834,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1997,9,51.16407394,-4.657399178,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2016,9,55.64232,-5.13717,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2011,9,55.65376,-5.14074,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.65376,-5.14074,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2011,9,56.36058,-6.376317,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
 2010,9,54.063233,-4.717295,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 1993,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
@@ -1676,7 +1676,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2015,9,57.74291992,-7.014333248,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
 2009,9,54.222,-4.733,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 2010,9,54.1008,-4.778916667,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
-2016,9,55.69739,-5.19199,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2016,9,55.69739,-5.19199,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2007,9,50.03384,-5.67805,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2006,9,58.6305,-3.6496,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1990,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
@@ -1715,7 +1715,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2009,9,54.273,-4.671,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 1993,9,,,9,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1992,9,54.083311,-4.695926,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
-2011,9,55.60034,-5.12058,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.60034,-5.12058,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2010,9,50.59085162,-4.94607563,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1989,9,55.571453,-5.364305,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1990,9,55.729966,-5.391799,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -1789,7 +1789,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 1994,9,,,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2008,9,56.48973,-6.470097,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
 2012,9,57.685,-3.494,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2014,9,55.68747,-5.17606,3 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2014,9,55.68747,-5.17606,3,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2013,9,57.642,-3.912,26,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2002,9,57.0118,-5.8348,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1997,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
@@ -2187,7 +2187,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2012,5,54.21486667,-4.3852,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 1989,5,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1998,5,50.0323,-5.2687,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2013,5,58.64195,-3.42213,1 (Exact),,,Accepted,HBRG Vertebrates (not Badger) Dataset,United Kingdom,Scotland
+2013,5,58.64195,-3.42213,1,,,Accepted,HBRG Vertebrates (not Badger) Dataset,United Kingdom,Scotland
 2013,5,54.058405,-4.76598,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 2007,5,56.424885,-6.970167,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2004,5,49.986561,-5.1741,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
@@ -2816,14 +2816,14 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2005,9,56.72044,-6.460548,14,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2006,9,50.04692666,-5.688088276,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1991,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2012,9,55.61828,-5.12201,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,9,55.61828,-5.12201,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2002,9,56.653333,-6.183364,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2012,9,50.135281,-5.707998,12,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2002,9,56.8002,-6.166694,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2006,9,58.3958,-5.1374,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,9,56.57461507,-6.293621063,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2005,9,56.32008,-7.084184,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
-2015,9,55.6713,-5.15805,4 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,9,55.6713,-5.15805,4,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1990,9,55.640148,-5.147655,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2002,9,56.666667,-6.266711,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1993,9,53.35,-5.066666667,15,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Wales
@@ -2872,7 +2872,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2013,9,50.128127,-5.713207,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2002,9,56.650186,-6.266711,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2008,9,50.06678722,-5.516828333,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2014,9,55.56954,-5.09434,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2014,9,55.56954,-5.09434,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2013,9,56.52293,-6.87733,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,9,57.42129439,-6.773071289,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,9,56.56875191,-6.299972534,30,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -2926,7 +2926,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 1990,9,55.5,-5.4,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,9,60.13610985,-1.029556965,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2002,9,56.437336,-6.900493,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2015,9,55.70595,-5.20861,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,9,55.70595,-5.20861,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2006,9,50.04183456,-5.649973514,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2005,9,55.645895,-5.385715,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2010,9,54.09,-4.765,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
@@ -2940,7 +2940,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 1989,9,50.0375,-4.346111111,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2008,9,50.03349528,-5.566943056,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2005,9,58.7709,-3.0451,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2016,9,55.59056,-5.15156,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2016,9,55.59056,-5.15156,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2016,9,50.8102,0.353494,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1989,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2012,9,50.06668041,-5.745521942,9,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
@@ -2949,7 +2949,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2006,9,56.7849,-6.763,5,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2004,9,55.7195,-5.2885,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2008,9,50.05018194,-5.533389167,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2016,9,55.63623,-5.12344,3 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2016,9,55.63623,-5.12344,3,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2009,9,54.061,-4.752,7,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 1995,9,,,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1989,9,55.553333,-5.361389,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -3007,7 +3007,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2004,9,55.997677,-5.393177,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2006,9,57.75316,-7.332333,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1990,9,55.9,-5.333333,10,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2015,9,55.67435,-5.38103,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,9,55.67435,-5.38103,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2013,9,56.56799531,-6.31061554,9,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2008,9,50.03384,-5.67805,25,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2002,9,56.550042,-6.43,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -3062,7 +3062,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2005,9,55.2622,-5.1242,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1995,9,,,5,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2013,9,57.758066,-3.496131,20,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2011,9,55.66274,-5.14145,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.66274,-5.14145,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2006,9,58.7,-1.345,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2007,9,55.873643,-2.073489,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2012,9,50.1634713,-5.673248027,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
@@ -3085,7 +3085,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2006,9,54.0595,-4.7516,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 2009,9,50.03467002,-5.677369215,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1990,9,,,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2014,9,55.59056,-5.15156,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2014,9,55.59056,-5.15156,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2008,9,57.8,-5.93,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2015,9,55.70022698,-5.323219299,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1990,9,54.44,-5.6,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Northern Ireland
@@ -3212,13 +3212,13 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2015,9,50.10029,-3.83354,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2006,9,50.0332,-5.645,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2013,9,57.728444,-3.336165,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2016,9,55.35341,-4.79264,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2016,9,55.35341,-4.79264,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2009,9,57.463,-6.64,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2008,9,50.03334861,-5.700188889,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2008,9,55.66128,-5.373289,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2006,9,56.77513,-7.613667,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2010,9,55.918,-2.139,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2011,9,55.61402,-5.13041,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.61402,-5.13041,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2011,9,54.09033333,-4.764,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 2009,9,54.226,-4.711,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 1996,9,,,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
@@ -3281,7 +3281,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2013,9,50.153653,-5.690575,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2014,9,55.61601,-5.05508,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2005,9,56.44073,-6.86735,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2006,9,57.68523,-6.35539,1 (Exact),,,Accepted,HBRG Vertebrates (not Badger) Dataset,United Kingdom,Scotland
+2006,9,57.68523,-6.35539,1,,,Accepted,HBRG Vertebrates (not Badger) Dataset,United Kingdom,Scotland
 1993,9,53.31666667,-5.716666667,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 2016,9,55.64137,-5.13439,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1995,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
@@ -3419,7 +3419,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 1987,9,50.29972222,-3.583888889,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2013,9,57.41606093,-6.780677217,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2002,9,56.516767,-7.000167,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2016,9,55.42947,-5.12289,2 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2016,9,55.42947,-5.12289,2,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2009,9,55.659,-5.379,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2008,9,50.06668,-5.533398889,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2013,9,57.70075354,-6.3530159,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -3428,7 +3428,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2004,9,56.841067,-6.36955,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2011,9,56.618,-6.003,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 1995,9,,,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2013,9,55.59056,-5.15156,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2013,9,55.59056,-5.15156,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2005,9,50.34763697,-3.574349203,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2002,9,57.083367,-6.700117,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,9,57.93801662,-3.989852584,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -3478,7 +3478,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2009,9,55.583,-4.917,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2008,9,50.03334417,-5.683513056,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2009,9,50.03467002,-5.677369215,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
-2012,9,55.68747,-5.17606,2 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2012,9,55.68747,-5.17606,2,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2012,9,50.208,-5.459,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2002,9,56.60435,-6.530647,2,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2002,9,56.62,-6.316719,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
@@ -3494,7 +3494,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2004,9,56.508937,-6.791885,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2013,9,55.35847594,-4.786280483,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2015,9,55.33527157,-4.825079441,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2011,9,55.64479,-5.14002,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,9,55.64479,-5.14002,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2013,9,60.13521199,-1.029583408,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2004,9,50.67478,-3.24174,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2011,9,49.88444,-3.3,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
@@ -3552,7 +3552,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2003,8,56.550046,-6.416713,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2005,8,56.6531,-6.177567,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2005,8,56.63074,-6.2509,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
-2015,8,55.59056,-5.15156,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2015,8,55.59056,-5.15156,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 2000,8,50.27254,-5.804679,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2005,8,56.6402,-6.049,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
 2010,8,56.50116,-6.704767,,,,Accepted,Visual sightings data set 2003-2017,United Kingdom,Scotland
@@ -3663,7 +3663,7 @@ Year,Month,Lat,Lon,Individual count,Sex,Life stage,Identification verification s
 2005,8,50.41636906,-5.083074148,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 1991,8,,,3,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
 1993,8,53.31666667,-5.916666667,4,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,,
-2011,8,55.68068,-5.14289,1 (Exact),,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
+2011,8,55.68068,-5.14289,1,,,Unconfirmed,National Trust for Scotland Species Records,United Kingdom,Scotland
 1998,8,49.93472222,-5.504444444,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,England
 2012,8,54.17408333,-4.765566667,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Isle of Man
 2005,8,56.54647,-6.730866,1,,,Unconfirmed,UK Basking Shark sightings from 1987 to 2016,United Kingdom,Scotland
