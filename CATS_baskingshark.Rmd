@@ -113,8 +113,7 @@ ggplot(data=acc_sub[1:40,], aes(x=Time, y=Sway)) + geom_line()
 
 ```
 Trying to play with signal processing. Note that for this signal, we want to run a high pass filter, because we WANT all of those tiny details and to get rid of the static acceleration. Filters work by computing the output from a number of input samples. 
-The number of samples is the memory length of the filter (Mark Johnson, St. Andrews). FIR (with finite memory) are better for processing movement data, rather than IIR (eg Butterworth, infinite memory, better for processing sound). We can use a Moving Average (MA) to make a high pass filter, where the memory is n-1 samples and the output is the mean of the last n samples. OR we can use a filter, which is delay free and based on window functions. These have longer memories. 
-
+The number of samples is the memory length of the filter (Mark Johnson, St. Andrews). FIR (with finite memory) are better for processing movement data, rather than IIR (eg Butterworth, infinite memory, better for processing sound). We can use a Moving Average (MA) to make a high pass filter, where the memory is n-1 samples and the output is the mean of the last n samples. OR we can use a filter that is delay free and based on window functions. These have longer memories. 
 
 
 ```{r}
@@ -125,12 +124,14 @@ summary(sway)
 str(sway)
 plot(sway$Sway~sway$Time,type="l")
 
+# we are looking just at the signature for sway. I ultimately want a high pass filter to try to get rid of any static acceleration 
+
 ## playing with high pass filters using the "filter" function
 # fir1(n, w, type = c("low", "high", "stop", "pass", "DC-0", "DC-1"),
 # window = hamming(n + 1), scale = TRUE) 
 # n = order of filter, degree of polynomial that will be used to smooth data; w = band edges between 0-1 (cut off point for filter), type = type of filter
 
-# generating coefficients for the filter I want to use 
+# generating MA coefficients for the filter I want to use 
 flt <- fir1(10, .9, type="high") # n must be even for high pass filters
 # note: you can play around with the order of the polynomial to get an even smoother track
 
@@ -139,5 +140,25 @@ filtering <- filter(flt, sway$Sway)
 plot(filtering[1:100]~sway$Time[1:100], type ="l")
 lines(sway$Sway[1:100]~sway$Time[1:100], col="red")
 
+### Can also apply the filter using a fast fourier transform, which breaks down the signal into different harmonics ### 
+fftfilt(b, x, n = NULL) # b= moving average coefficients (from flt), x= signal to be filtered, n = length of FFT window 
+fourier <- fftfilt(flt, sway$Sway)
+plot(sway$Time, sway$Sway, type = "l")
+lines(sway$Time, fourier, col = "red")
+
+# let's compare the two filtering methods (fft and filter)
+plot(sway$Time, sway$Sway, type = "l")
+plot(sway$Time, fourier, type= "l", col = "red")
+lines(filtering~sway$Time, col="blue")
+## COOL! They're basically the same ## 
+
+# now, for fun, let's try a low pass filter # 
+# generating MA coefficients for the filter I want to use 
+flt.low <- fir1(8, .3, type="low")
+filtering.low <- filter(flt.low, sway$Sway)
+plot(filtering.low[1:100]~sway$Time[1:100], type ="l")
+lines(sway$Sway[1:100]~sway$Time[1:100], col="red")
+# we can see that this "smooths" the track and gets rid of all of that noise. BUT you can also see that there's a bit of a delay because of the nature of the MA coefficients # 
+# delay = (n-1)/2 or half of memory time #
 
 ```
