@@ -93,8 +93,6 @@ summary(acc$Time)
 # we have VERY high frequency. Probably can subsample, by removing duplicated timestamps (because we took off the milliseconds and such, so now we only have seconds)
 acc_sub <- acc[!duplicated(acc[,1]),]
 head(acc_sub)
- #applying the time points to the data, we want all of the rows that correspond to the timeseq (or the extracted points)
-head(acc_sub)
 summary(acc_sub)
 nrow(acc_sub)
 plot(acc_sub$Time[1:500], acc_sub$X0.Not.Feeding.1.Feeding[50:90])
@@ -114,4 +112,32 @@ ggplot(data=acc_sub[300:340,], aes(x=Time, y=Sway)) + geom_line()
 ggplot(data=acc_sub[1:40,], aes(x=Time, y=Sway)) + geom_line()
 
 ```
-Using practice "Signal" to do some signal processing on accelerometer
+Trying to play with signal processing. Note that for this signal, we want to run a high pass filter, because we WANT all of those tiny details and to get rid of the static acceleration. Filters work by computing the output from a number of input samples. 
+The number of samples is the memory length of the filter (Mark Johnson, St. Andrews). FIR (with finite memory) are better for processing movement data, rather than IIR (eg Butterworth, infinite memory, better for processing sound). We can use a Moving Average (MA) to make a high pass filter, where the memory is n-1 samples and the output is the mean of the last n samples. OR we can use a filter, which is delay free and based on window functions. These have longer memories. 
+
+
+
+```{r}
+library(stats)
+sway <- data.frame(acc_sub$Sway, acc_sub$Time)
+colnames(sway) <- c("Sway", "Time")
+summary(sway)
+str(sway)
+plot(sway$Sway~sway$Time,type="l")
+
+## playing with high pass filters using the "filter" function
+# fir1(n, w, type = c("low", "high", "stop", "pass", "DC-0", "DC-1"),
+# window = hamming(n + 1), scale = TRUE) 
+# n = order of filter, degree of polynomial that will be used to smooth data; w = band edges between 0-1 (cut off point for filter), type = type of filter
+
+# generating coefficients for the filter I want to use 
+flt <- fir1(10, .9, type="high") # n must be even for high pass filters
+# note: you can play around with the order of the polynomial to get an even smoother track
+
+# now applying the filter:
+filtering <- filter(flt, sway$Sway)
+plot(filtering[1:100]~sway$Time[1:100], type ="l")
+lines(sway$Sway[1:100]~sway$Time[1:100], col="red")
+
+
+```
