@@ -4,17 +4,18 @@ output: html_document
 ---
 
 Here I'm going to bring in the initial raw dataset from CATSCam, shark 2
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+library(rmarkdown)
+library(ggplot2)
 setwd("~/Desktop/Basking sharks/bs.git")
-ID <- 2 #this allows us to change the ID to look at other data if we want to 
+ID <- 3 #this allows us to change the ID to look at other data if we want to 
 data <- read.csv(paste0("Shark ", ID, "_CATS.csv"))
 head(data)
-table(data$Date) #so, all have the same date (July 26, 2013)
+table(data$Date) #all have the same date (July 26, 2013)
 data$Time[1] #first time: 19:16:45
 data$Time[nrow(data)] #end time: 22:10:47
 ```
-So, now we need to think about what we are interested in. We want to know time, feeding, pressure, temperature, light intensity, ODBA
+**SUMMARY STATS** we need to think about what we are interested in. We want to know time, feeding, pressure, temperature, light intensity, ODBA
 
 ```{r}
 dat2 <- data[,c(2,4, 5, 12, 19, 20, 21, 22)]
@@ -47,8 +48,8 @@ ft1 <- feed.dat1[nrow(feed.dat1),1] - feed.dat1[1,1] #returns a difftime object 
 ft1 <- as.numeric(feed.dat1[nrow(feed.dat1),1] - feed.dat1[1,1]) #make numeric
 
 # ### now try with two segments, and combine in a list
-# feed.dat2 <- (feed.dat[splits[1]:splits[2],])
-# ft2 <- as.numeric(feed.dat2[nrow(feed.dat2),1] - feed.dat2[1,1]) 
+feed.dat2 <- (feed.dat[splits[1]:splits[2],])
+ ft2 <- as.numeric(feed.dat2[nrow(feed.dat2),1] - feed.dat2[1,1]) 
 # 
 # feed.dat3 <- (feed.dat[splits[2]:splits[3],])
 # ft3 <- as.numeric(feed.dat3[nrow(feed.dat3),1] - feed.dat3[1,1]) 
@@ -72,10 +73,45 @@ hist(ft, breaks=breaks, main = "Histogram of Feeding Events", xlab = "Duration o
 
 
 
+```
+**ACCELEROMETER INFO** Now we want to go back to the original data set, and pull out the time, whether it was a feeding event, then the acceleration in each axis 
+
+```{r}
+head(data)
+summary(data)
+acc <- data[,c(2, 4, 11, 13, 15)]
+head(acc)
+# note: all of our accelerations are in g. 1 g = 9.80665 m/s^2, so we need to convert all of our axes
+acc$Sway <- acc$Sway..g.*9.80665
+acc$Surge<- acc$Surge..g.*9.80665
+acc$Heave <- acc$Heave..g.*9.80665
+head(acc)
+
+acc[,1] <- as.POSIXct(acc$Time, format="%H:%M:%OS", tz="UTC")
+summary(acc$Time)
+
+# we have VERY high frequency. Probably can subsample, by removing duplicated timestamps (because we took off the milliseconds and such, so now we only have seconds)
+acc_sub <- acc[!duplicated(acc[,1]),]
+head(acc_sub)
+ #applying the time points to the data, we want all of the rows that correspond to the timeseq (or the extracted points)
+head(acc_sub)
+summary(acc_sub)
+nrow(acc_sub)
+plot(acc_sub$Time[1:500], acc_sub$X0.Not.Feeding.1.Feeding[50:90])
+
+#### now that we have narrowed down a sample feeding event from the plot above ###
+#practice visualizing acceleration data overall
+ggplot(data=acc_sub, aes(x=Time, y=Surge)) + geom_line() + geom_line(aes(x=Time, y=Sway, color="red")) + geom_line(aes(x=Time, y=Heave, color="blue"))
+
+#Brownscombe et al., 2013: oscillations in the sway axis are good proxy for TB frequency
+ggplot(data=acc_sub[1:100,], aes(x=Time, y=X0.Not.Feeding.1.Feeding)) + geom_point()
+# can see that there is a feeding event from "2018-07-27 19:51:00" to "2018-07-27 19:51:00"
+ggplot(data=acc_sub[230:420,], aes(x=Time, y=Sway)) + geom_line()
+
+# make same scale so can compare
+ggplot(data=acc_sub[300:340,], aes(x=Time, y=Sway)) + geom_line()
+# not feeding
+ggplot(data=acc_sub[1:40,], aes(x=Time, y=Sway)) + geom_line()
 
 ```
-
-We then need to filter out the data from the surface, because the wobble affects the accelerometer 
-
-
-Then, we are just going to do basic GLMs, testing ODBA if it were applied for the entire period versus if it's just the times that they're selecting
+Using practice "Signal" to do some signal processing on accelerometer
