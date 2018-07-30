@@ -95,9 +95,10 @@ dat2$Surge.ms2<- dat2$Surge*9.80665
 dat2$Heave.ms2 <- dat2$Heave*9.80665
 acc <- dat2
 head(acc)
-
+summary(acc)
 acc[,1] <- as.POSIXct(acc$Time, format="%H:%M:%OS", tz="UTC")
 summary(acc$Time)
+
 
 #Making sure that our "feeding" and "nonfeeding" binary events line up. 
 # if the behavior is feed or right turn while feeding or left turn while feeding, the column "Feeding" is assigned a 1; otherwise, it's a 0
@@ -296,3 +297,76 @@ plot(psd_feed$freq, psd_feed$spec, type="l")
 lines(psd_nofeed$freq, psd_nofeed$spec, col="red")
 
 ```
+What about ODBA?
+```{r}
+plot(acc$ODBA~acc$Time, type="l")
+plot(feedsamp$ODBA~feedsamp$Time, type="l")
+summary(feedsamp$ODBA)
+plot(nofeedsamp$ODBA~nofeedsamp$Time, type="l")
+barplot(c(mean(feedsamp$ODBA), mean(nofeedsamp$ODBA))) #ODBA ISN'T VERY HELPFUL
+```
+**BEHAVIORS** Let's put it all together to compare different behaviors at a more nuanced scale. The behaviors we have are as follows: Feed, Lturn, Rturn, Rturn_feed, Swallow, Swim
+
+```{r}
+### The behaviors we have:
+summary(acc$Behavior)
+acc$ODBA <- abs(acc$ODBA)
+## feeding sample as defined above
+feedsamp
+
+## Lturn
+which(acc$Behavior=="Lturn")
+lturnsamp <- acc[261:500,]
+
+#Rturn
+which(acc$Behavior=="Rturn")
+rturnsamp <- acc[142:260,]
+
+#Rturn_feed
+which(acc$Behavior=="Rturn_feed")
+rturn_feedsamp <- acc[1181:1660,]
+
+#Swallow
+which(acc$Behavior=="Swallow")
+swallowsamp <- acc[1881:1960,]
+
+#Swim (same as the "nofeedsamp" object above, but renamed here for convenience)
+which(acc$Behavior=="Swim")
+swimsamp <- acc[1:141,]
+
+#### look at summary stats for each behavior ######
+names = c("Feed", "Swim", "Rturn", "Lturn", "Swallow", "Rturn_Feed")
+
+### mean sway values (g) - these have not been filtered in any way
+barplot(c(mean(feedsamp$Sway), mean(swimsamp$Sway), mean(rturnsamp$Sway), mean(lturnsamp$Sway), mean(swallowsamp$Sway), mean(rturn_feedsamp$Sway)), names.arg=names, main="Mean Sway Values")
+
+barplot(c(mean(feedsamp$ODBA), mean(swimsamp$ODBA), mean(rturnsamp$ODBA), mean(lturnsamp$ODBA), mean(swallowsamp$ODBA), mean(rturn_feedsamp$ODBA)), names.arg=names, main = "ODBA Values per Behavior")
+
+#### plotting "Sway" signatures for each behavior (note that these are NOT of the same duration, so x axis will be different...not super helpful)
+plot(feedsamp$Time, feedsamp$Sway, type="l")
+plot(swimsamp$Time, swimsamp$Sway, type="l")
+plot(swallowsamp$Time, swallowsamp$Sway, type="l")
+plot(rturn_feedsamp$Time, rturn_feedsamp$Sway, type="l")
+plot(rturnsamp$Time, rturnsamp$Sway, type="l")
+plot(lturnsamp$Time, lturnsamp$Sway, type="l")
+
+### back to playing with PSD! ####
+psd_feed <- pspectrum(feedsamp$Sway, x.frqsamp =20, plot=TRUE)
+psd_swim <- pspectrum(swimsamp$Sway, x.frqsamp =20, plot=TRUE)
+psd_swallow <- pspectrum(swallowsamp$Sway, x.frqsamp =20, plot=TRUE)
+psd_rturn_feed <- pspectrum(rturn_feedsamp$Sway, x.frqsamp =20, plot=TRUE)
+psd_rturn <- pspectrum(rturnsamp$Sway, x.frqsamp =20, plot=TRUE)
+psd_lturn <- pspectrum(lturnsamp$Sway, x.frqsamp =20, plot=TRUE)
+
+plot(psd_rturn_feed$freq, psd_rturn_feed$spec, col="black", type="l")
+lines(psd_lturn$freq, psd_lturn$spec, col="green")
+lines(psd_feed$freq, psd_feed$spec, col="orange")
+lines(psd_swim$freq, psd_swim$spec, col="red")
+lines(psd_swallow$freq, psd_swallow$spec, col="blue")
+lines(psd_rturn$freq, psd_rturn$spec, col="gray")
+lines(psd_lturn$freq, psd_lturn$spec, col="purple")
+legend(5, .008, legend=c("Rturn_feed", "Lturn", "Feed", "Swim", "Swallow", "Rturn", "Lturn"),
+       col=c("black", "green", "orange", "red", "blue", "gray", "purple"), lty=1, cex=0.8)
+```
+
+Now that we have the basic code to apply. Next step: gathering more samples of each behavior. The above code only provides analyses we can apply if we extract a sample of each behavior. We will have to standardize these behaviors to get power per unit of time. 
