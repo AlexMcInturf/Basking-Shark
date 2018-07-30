@@ -163,7 +163,7 @@ ggplot(data=feedsamp2, aes(x=Time, y=Sway.ms2)) + geom_line()
 
 ggplot(data=feedsamp1, aes(x=Time, y=Sway)) + geom_line() + geom_line(data=feedsamp2, aes(x=Time, y=Sway)) + geom_line(data=feedsamp3, aes(x=Time, y=Sway)) + geom_line(data=nofeedsamp1, aes(x=Time, y=Sway), color="red") + geom_line(data=nofeedsamp2, aes(x=Time, y=Sway), color="red")
 
-###### no discernible difference in either case, at least to the eye. Let's look at the summary stats of "sway" in our "feeding" vs. "nonfeeding" samples
+###### no discernible difference in either case, at least to the eye. Let's look at the summary stats of "sway" in our "feeding" vs. "nonfeeding" samples ####
 
 which(acc$Behavior=="Feed")
 feedsamp <- acc[1961:2160,]
@@ -171,10 +171,20 @@ which(acc$Behavior=="Swim")
 nofeedsamp <- acc[1:141,]
 plot(feedsamp$Time, feedsamp$Sway, type="l")
 barplot(c(max(feedsamp$Sway), max(nofeedsamp$Sway)), col = c("lightblue", "pink"))
-barplot(c(mean(feedsamp$Sway), mean(nofeedsamp$Sway)), col = c("lightblue", "pink")) # we do see lower g values for SWIM vs. FEED behaviors
+barplot(c(mean(feedsamp$Sway), mean(nofeedsamp$Sway)), col = c("lightblue", "pink")) # we do see lower g values for SWIM vs. FEED behaviors, in terms of mean and max
 barplot(c(range(feedsamp$Sway), range(nofeedsamp$Sway)), col = c("lightblue", "pink"))
+#### note that the absolute difference between min and max values for both feeding and non-feeding are similar, BUT lower g values for non feeding
 
 ```
+Let's look at the "before" period and "after" period for the feeding event:
+```{r}
+# if:
+feedsamp <- acc[1961:2160,]
+sampleseg1 <- acc[1000:1961,]
+sampleseg2 <- acc[2160:2300,]
+ggplot(data = feedsamp, aes(x=Time, y=Sway)) + geom_line() + geom_line(data=sampleseg1, aes(x=Time, y=Sway), color="red") + geom_line(data=sampleseg2, aes(x=Time, y=Sway), color="red")
+```
+
 Trying to play with signal processing. Note that for this signal, we want to run a high pass filter, because we WANT all of those tiny details and to get rid of the static acceleration. Filters work by computing the output from a number of input samples. 
 The number of samples is the memory length of the filter (Mark Johnson, St. Andrews). FIR (with finite memory) are better for processing movement data, rather than IIR (eg Butterworth, infinite memory, better for processing sound). We can use a Moving Average (MA) to make a high pass filter, where the memory is n-1 samples and the output is the mean of the last n samples. OR we can use a filter that is delay free and based on window functions. These have longer memories. 
 
@@ -248,7 +258,41 @@ flt.low <- fir1(8, .3, type="low")
 fullfiltering.low <- filter(flt.low, fullsway$Sway)
 plot(fullfiltering.low[1:10000]~fullsway$Time[1:10000], type ="l")
 lines(fullsway$Sway[1:10000]~fullsway$Time[1:10000], col="red")
+
+#### this confirms to me that we will see the biggest behavioral differences using a high pass filter
 ```
 
 
 Thanks to all of that playing, we now have "filtering", which contains all of our signal after high pass filtering, and "filtering.low", after low pass filtering. The next step is to identify behaviors from the video - one really prominent feeding event and one prominent non-feeding event, and see if we can see differences in the signature of EITHER low or high pass filtered signals, just to see where the TB frequency signal is strongest 
+
+```{r}
+# going back to the feedsamp and non-feed samples that we have above
+feedsamp <- acc[1961:2160,]
+nofeedsamp <- acc[1:141,]
+##### high pass ####
+hiflt <- fir1(8, .9, type="high") 
+# now applying the filter:
+hiflt.feed <- filter(hiflt, feedsamp$Sway)
+plot(hiflt.feed~feedsamp$Time, type ="l")
+plot(feedsamp$Sway~feedsamp$Time, col="red", type="l")
+
+hiflt.nofeed <- filter(hiflt, nofeedsamp$Sway)
+plot(hiflt.nofeed~nofeedsamp$Time, type ="l")
+plot(nofeedsamp$Sway~nofeedsamp$Time, col="red", type="l")
+
+##### low pass ####
+flt.low <- fir1(8, .3, type="low")
+lowflt.feed <- filter(flt.low, feedsamp$Sway)
+plot(lowflt.feed~feedsamp$Time, type ="l")
+
+### just for fun, playing with power spectrum densities ###
+# would want to apply these to the different behaviors and see if they're different 
+install.packages("psd")
+library(psd)
+psd_feed <- pspectrum(feedsamp$Sway, x.frqsamp =20, plot=TRUE)
+psd_nofeed <- pspectrum(nofeedsamp$Sway, x.frqsamp =20, plot=TRUE)
+summary(psd_feed)
+plot(psd_feed$freq, psd_feed$spec, type="l")
+lines(psd_nofeed$freq, psd_nofeed$spec, col="red")
+
+```
